@@ -11,7 +11,7 @@ This repository contains the Supplementary Material and R code to fit the models
 # Supplementary Material
 This supplementary material contains some results of the simulation study described in Santafé et al. (2019).
 
-[Supplementary Material](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/Supplementary_Material.pdf) 
+[Figure S1](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario1A.pdf): True risks and average values of the relative risks $r_i$ posterior median estimates for the simulation study of Scenario 1A for LCAR, AHC and DBSC (with $l=1,2,3$) models. 
 
 
 # R code
