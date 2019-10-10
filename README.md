@@ -3,8 +3,8 @@ This repository contains the Supplementary Material and R code to fit the models
 
 ## Table of contents
 
-- [Supplementary Material](#SupplementaryMaterial)
-- [R code](#Rcode)
+- [Supplementary Material](#Supplementary Material)
+- [R code](#R code)
 - [References](#References)
 
 
