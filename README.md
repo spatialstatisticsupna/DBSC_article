@@ -9,12 +9,22 @@ This repository contains the Supplementary Material and R code to fit the models
 
 
 # Supplementary Material
-This supplementary material contains some results of the simulation study described in Santafé et al. (2019).
+Figures S1-S9 contains some results of the simulation study described in Santafé et al. (2019).
 
 __Scenario 1__
 - [Figure S1](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario1A.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 1A for LCAR, AHC and DBSC models.
 - [Figure S2](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario1B.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 1B for LCAR, AHC and DBSC models.
 - [Figure S3](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario1C.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 1C for LCAR, AHC and DBSC models.
+
+__Scenario 2__
+- [Figure S4](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario2A.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 2A for LCAR, AHC and DBSC models.
+- [Figure S5](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario2B.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 2B for LCAR, AHC and DBSC models.
+- [Figure S6](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario2C.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 2C for LCAR, AHC and DBSC models.
+
+__Scenario 3__
+- [Figure S7](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario3A.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 3A for LCAR, AHC and DBSC models.
+- [Figure S8](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario3B.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 3B for LCAR, AHC and DBSC models.
+- [Figure S9](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario3C.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 3C for LCAR, AHC and DBSC models.
 
 
 # R code
