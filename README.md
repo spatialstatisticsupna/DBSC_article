@@ -42,6 +42,7 @@ R code to fit the following spatial disease mapping models
 - LCAR model (Leroux et al., 1999)
 - AHC model (Adin et al., 2019)
 - DBSC model (Santafé et al., 2019)
+
 has been included in [here](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/R/)
 
 
