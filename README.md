@@ -3,12 +3,12 @@ This repository contains the Supplementary Material and R code to fit the models
 
 ## Table of contents
 
-- [Supplementary Material](#SupplementaryMaterial)
-- [R code](#Rcode)
+- [Supplementary Material](#Supplementary-Material)
+- [R code](#R-code)
 - [References](#References)
 
 
-# SupplementaryMaterial
+# Supplementary Material
 Figures S1-S9 contains some results of the simulation study described in Santafé et al. (2019).
 
 __Scenario 1__
@@ -30,7 +30,7 @@ __Scenario 3__
 Figures S1-S9 contains some results of the simulation study described in Santafé et al. (2019).
 
 
-# Rcode
+# R code
 R code to fit the following spatial disease mapping models:
 - LCAR model (Leroux et al., 1999)
 - AHC model (Adin et al., 2019)
