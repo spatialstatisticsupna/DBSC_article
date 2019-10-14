@@ -26,14 +26,15 @@ __Scenario 3__
 - [Figure S8](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario3B.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 3B for LCAR, AHC and DBSC models.
 - [Figure S9](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/SimulationStudy_Scenario3C.pdf): True risks and average values of the relative risk posterior median estimates for the simulation study of Scenario 3C for LCAR, AHC and DBSC models.
 
+<br>
 
 Figures S10-S13 contains some results of the __motivating application__ described in Santafé et al. (2019).
 
 - [Figure S10](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/MotivatingApplication_Males_PosteriorRisks.pdf): Maps of posterior median estimates for stomach cancer mortality risks in the municipalities of Spain for male population during the period 2011-2015.
-- [Figure S11](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/MotivatingApplication_Males_ExceedenceProbabilities.pdf): Maps of posterior exceedence probabilities https://latex.codecogs.com/gif.latex?P%28r_i%20%3E1%20%7C%20%7B%5Cbf%20O%7D%29 of stomach cancer mortality risks in the municipalities of Spain for male population during the period 2011-2015.
+- [Figure S11](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/MotivatingApplication_Males_ExceedenceProbabilities.pdf): Maps of posterior exceedence probabilities ![equation](https://latex.codecogs.com/gif.latex?P%28r_i%20%3E1%20%7C%20%7B%5Cbf%20O%7D%29) of stomach cancer mortality risks in the municipalities of Spain for male population during the period 2011-2015.
 
 - [Figure S12](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/MotivatingApplication_Females_PosteriorRisks.pdf): Maps of posterior median estimates for stomach cancer mortality risks in the municipalities of Spain for female population during the period 2011-2015.
-- [Figure S13](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/MotivatingApplication_Females_ExceedenceProbabilities.pdf): Maps of posterior exceedence probabilities https://latex.codecogs.com/gif.latex?P%28r_i%20%3E1%20%7C%20%7B%5Cbf%20O%7D%29 of stomach cancer mortality risks in the municipalities of Spain for female population during the period 2011-2015.
+- [Figure S13](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/MotivatingApplication_Females_ExceedenceProbabilities.pdf): Maps of posterior exceedence probabilities ![equation](https://latex.codecogs.com/gif.latex?P%28r_i%20%3E1%20%7C%20%7B%5Cbf%20O%7D%29) of stomach cancer mortality risks in the municipalities of Spain for female population during the period 2011-2015.
 
 
 # R code
