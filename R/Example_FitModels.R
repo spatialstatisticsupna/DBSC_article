@@ -27,10 +27,10 @@ names(results) <- model.names
 n <- ncol(W)
 
 
-source("../Clustering_functions/Model_INLA.R")
-source("../Clustering_functions/AHC_algorithm.R")
-source("../Clustering_functions/DBSC_algorithm.R")
-source("../Clustering_functions/ApproximatedDIC.R")
+source("Clustering_functions/Model_INLA.R")
+source("Clustering_functions/AHC_algorithm.R")
+source("Clustering_functions/DBSC_algorithm.R")
+source("Clustering_functions/ApproximatedDIC.R")
 
 
 Qs <- diag(apply(W,2,sum))-W
