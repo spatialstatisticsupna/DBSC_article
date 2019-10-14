@@ -1,3 +1,4 @@
+# R code
 This folder contains the necessary R functions to fit the LCAR, AHC and DBSC models described in Santafé et al. (2019) using a simulated data set over the n=508 municipalities of the Spanish autonomous regions of Navarre and the basque Country.
 
 The [NA_PV_simulatedData.RData](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/R/NA_PV_simulatedData.RData) file contains the following R objects:
