@@ -43,7 +43,7 @@ R code to fit the following spatial disease mapping models
 - AHC model (Adin et al., 2019)
 - DBSC model (Santafé et al., 2019)
 
-has been included in [here](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/R/).
+has been included [here](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/R/).
 
 
 # References
