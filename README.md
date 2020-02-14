@@ -1,5 +1,5 @@
 # Density-based spatial clustering (DBSC) algorithm
-This repository contains the Supplementary Material and R code to fit the models described in the paper entitle [_"Dealing with risk discontinuities to estimate cancer mortality risks when the number of small areas is large"_ (Santafé et al., 2020)](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/pdf/UGARTE_AND_COAUTHORS_SMMR.pdf)
+This repository contains the Supplementary Material and R code to fit the models described in the paper entitle _"Dealing with risk discontinuities to estimate cancer mortality risks when the number of small areas is large"_ (Santafé et al., 2020)
 
 
 ## Table of contents
