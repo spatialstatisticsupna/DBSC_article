@@ -47,6 +47,9 @@ R code to fit the following spatial disease mapping models
 has been included [here](https://github.com/spatialstatisticsupna/DBSC_article/blob/master/R/).
 
 
+# Acknowledgements
+This work has been supported by the Spanish Ministry of Economy and Competitiveness (project MTM2014-51992-R), by the Spanish Ministry of Economy, Industry, and Competitiveness (project MTM2017-82553-R, AEI/FEDER, UE), and by the UK Medical Research Council (Grant number MR/L022184/1).
+
 # References
 [Adin, A., Lee, D., Goicoa, T., and Ugarte, M.D. (2019). A two-stage approach to estimate spatial and spatio-temporal disease risks in the presence of local discontinuities and clusters. _Statistical Methods in Medical Research_, __28(9)__, 2595-2613.](https://doi.org/10.1177/0962280218767975)
 
