@@ -55,4 +55,4 @@ This work has been supported by the Spanish Ministry of Economy and Competitiven
 
 [Leroux, B.G., Lei, X., and Breslow, N. (1999). Estimation of disease rates in small areas: A new mixed model for spatial dependence. In Halloran, M. and Berry, D. (eds), _Statistical Models in Epidemiology, the Environment, and Clinical Trials_, pp. 179-191. Springer-Verlag: New York.](https://doi.org/10.1007/978-1-4612-1284-3_4)
 
-[Santafé, G., Adin, A., Lee, D., and Ugarte, M.D. (2020). Dealing with risk discontinuities to estimate cancer mortality risks when the number of small areas is large. _Statistical Methods in Medical Research_, __30(1)__, 6-21.](https://doi.org/10.1177/0962280220946502) 
+[Santafé, G., Adin, A., Lee, D., and Ugarte, M.D. (2021). Dealing with risk discontinuities to estimate cancer mortality risks when the number of small areas is large. _Statistical Methods in Medical Research_, __30(1)__, 6-21.](https://doi.org/10.1177/0962280220946502) 
