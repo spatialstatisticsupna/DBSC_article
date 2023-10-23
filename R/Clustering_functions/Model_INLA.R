@@ -22,7 +22,7 @@ model.selection <- function(cluster.partition, Y.real, E.real, C, Carto,
                             max.cluster=NULL, final.cluster=NULL, start=NULL,
                             plot.dic=TRUE, strategy="simplified.laplace", 
                             tempfolder.path=NULL, tempfolder.remove=TRUE){
-                            
+  
      #### Fit a model to each cluster partition candidate (up to "max.cluster")
      #### and choose the best by minimising the Deviance Information Criterion.
 
@@ -47,7 +47,7 @@ time <- system.time({
     R.Leroux <- diag(dim(C)[1])-C
   
   
-    ## N? of areas and partition candidates ##
+    ## Nº of areas and partition candidates ##
     n <- length(Y.real)
     n.partition <- nrow(cluster.partition)
     
@@ -128,8 +128,8 @@ time <- system.time({
                                   clust=as.numeric(as.factor(factor.clust)))
       
           ## Cluster configuration map ##
-          lista <- factor.clust
-          cluster.map <- unionSpatialPolygons(Carto,lista)
+          Carto$ID.clust <- factor.clust
+          cluster.map <- aggregate(Carto[,"geometry"], by=list(ID.clust=Carto$ID.clust), head)
           nb2INLA(poly2nb(cluster.map), file=file.path(tempfolder.dir, "cluster_nb.inla"))
           
           g <- inla.read.graph(file.path(tempfolder.dir, "cluster_nb.inla"))
@@ -263,8 +263,8 @@ time <- system.time({
                                 clust=as.numeric(as.factor(factor.clust)))
         
         ## Cluster configuration map ##
-        lista <- factor.clust
-        cluster.map <- unionSpatialPolygons(Carto,lista)
+        Carto$ID.clust <- factor.clust
+        cluster.map <- aggregate(Carto[,"geometry"], by=list(ID.clust=Carto$ID.clust), head)
         nb2INLA(poly2nb(cluster.map), file=file.path(tempfolder.dir, "cluster_nb.inla"))
         
         g <- inla.read.graph(file.path(tempfolder.dir, "cluster_nb.inla"))

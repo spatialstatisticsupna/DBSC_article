@@ -1,12 +1,12 @@
 rm(list=ls())
 library(INLA)
-library(maptools)
+library(sf)
 library(spdep)
 library(RColorBrewer)
 library(tmap)
 
 
-setwd("./")
+setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 fileIn <- "./NA_PV_simulatedData.RData"
 fileOut <- "./results_NA_PV.RData"
 
@@ -32,13 +32,13 @@ source("Clustering_functions/AHC_algorithm.R")
 source("Clustering_functions/DBSC_algorithm.R")
 source("Clustering_functions/ApproximatedDIC.R")
 
+Qs <- as(Diagonal(n,colSums(W))-W,"Matrix")
 
-Qs <- diag(apply(W,2,sum))-W
 
 ################
 ## LCAR model ##
 ################
-R.Leroux <- diag(n)-Qs
+R.Leroux <- Diagonal(n)-Qs
 
 sdunif="expression:
       logdens=-log_precision/2;
@@ -198,7 +198,7 @@ print(cbind(pD,DIC,WAIC,LS))
 ##########################################
 # To print the risk maps and the maps with the posterior exceedence probabilities - P(r_i>1 | O)- we can use :
 
-mean.risk <- lapply(results, function(x) x$summary.fitted.values$'0.5quant')
+mean.risk <- as.data.frame(do.call(cbind,lapply(results, function(x) x$summary.fitted.values$'0.5quant')))
 mean.risk$true.risk <- exp(risk)
 mean.risk$muni <- Carto.MUN$muni
 mean.risk$SMR <- Datos[Datos$year==4,"SMR"]
@@ -227,7 +227,7 @@ print(Map)
 ###########################################
 ## Posterior exceedence probability maps ##
 ###########################################
-probs <- lapply(results, function(x) x$summary.fitted.values$`1 cdf`)
+probs <- as.data.frame(do.call(cbind,lapply(results, function(x) x$summary.fitted.values$`1cdf`)))
 probs$muni <- Carto.MUN$muni
 
 Carto <- merge(Carto.MUN,probs)

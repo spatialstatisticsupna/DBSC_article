@@ -99,7 +99,7 @@ clustering.function <- function(data, W){
     
     aux <- initial.W
     aux[clust.mat>0] <- 0
-    W.list[[i]] <- as(aux,"dgCMatrix")
+    W.list[[i]] <- as(aux,"Matrix")
   }
 
   result <- list(W.list=W.list, cluster.store=cluster.store, merge.ind=merge.ind, dissim.size=dissim.size, merged=merged)
